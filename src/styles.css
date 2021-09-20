@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 20vh;
+}
+.output {
+  margin-top: 10vh;
+}
+#navbar-header {
+  background-color: #163c5d;
+  padding: 20px;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+#navbar-footer {
+  background-color: #163c5d;
+  padding: 30px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+  padding: 5px;
+}
+ul {
+  margin-left: 20px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+@media (max-width: 425px) {
+  input {
+    width: 200px;
+  }
+}
